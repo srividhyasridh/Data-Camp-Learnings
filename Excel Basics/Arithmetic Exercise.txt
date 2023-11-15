@@ -1,0 +1,4 @@
+
+--Find how many decades the films table covers by using MIN() and MAX() and alias as number_of_decades.-- Find the number of decades in the films table
+SELECT (Max(release_year)-Min(release_year)) / 10.0 AS number_of_decades
+FROM films;

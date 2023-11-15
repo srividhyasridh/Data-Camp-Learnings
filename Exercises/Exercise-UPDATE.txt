@@ -1,0 +1,12 @@
+UPDATE Statement Exercise:
+
+Change the “Business Analysis” department name to “Data Analysis”.
+
+Hint: To solve this exercise, use the “departments” table.
+
+Solution:
+
+update departments
+set dept_name='Data Analysis'
+where dept_name='Business Analysis'
+dept_no='d010';
